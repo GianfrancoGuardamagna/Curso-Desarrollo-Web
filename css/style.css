@@ -1,0 +1,364 @@
+.body {
+    background-color: rgb(182, 173, 144);
+    margin: 0%;
+}
+
+@font-face {
+    font-family: Miriam;
+    src: url(../assets/LiberationSerif-Regular.ttf);
+}
+
+.navegador_interno {
+    background-image: url(../imgs/wood\ png.png);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    box-shadow: 0 10px 7px rgba(0, 0, 0, 0.3);
+    gap: 70px;
+}
+
+.navegador_interno img {
+    height: 60px;
+    width: auto;
+    display: block;
+    margin-left: 40px;
+    margin-right: auto;
+}
+
+.navegador_interno ul {
+    text-align: right;
+
+}
+
+.navegador_interno ul li {
+    font-family: Miriam;
+    display: inline-block;
+    padding: 15px;
+}
+
+.navegador_interno ul li a {
+    font-family: Miriam;
+    font-size: 24px;
+    font-weight: 600;
+    color: #000;
+    transition: 0.25s;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: auto;
+    text-decoration: none;
+}
+
+.navegador_interno ul li a:hover {
+
+    font-size: 29px;
+    text-decoration: underline;
+
+}
+
+.index {
+    width: 100%;
+    height: 400px;
+}
+
+.index img {
+    width: 100%;
+    height: 400px;
+}
+
+.texto_index {
+    font-size: 30px;
+    font-family: Miriam;
+    text-align: center;
+    margin: 20px;
+}
+
+.footer_index {
+    margin-bottom: 0%;
+    background-color: rgb(62, 73, 62);
+    background-size: 70px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_index_texto {
+    width: 17%;
+    align-items: center;
+}
+
+.footer_index_texto p {
+    display: flex;
+    font-weight: 600;
+    padding: 5px;
+}
+
+.footer_index div svg {
+    height: 30px;
+    width: auto;
+    margin: 7px;
+    justify-content: right;
+}
+
+.main_eltaller {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    max-height: 100%;
+}
+
+.cards {
+    object-fit: cover;
+    margin: 40px;
+    height: 350px;
+    width: auto;
+    background-color: rgb(112, 126, 112);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.cards_b {
+    object-fit: cover;
+    margin: 40px;
+    height: 350px;
+    width: auto;
+    background-color: rgb(150, 125, 42);
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.cards:hover {
+    height: 370px;
+    width: auto;
+    box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.3);
+}
+
+.cards_b:hover {
+    height: 370px;
+    width: auto;
+    box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.3);
+}
+
+.cards img {
+    height: 100%;
+    width: 40%;
+    object-fit: cover;
+}
+
+.cards_b img {
+    height: 100%;
+    width: 40%;
+    object-fit: cover;
+}
+
+.text_card {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+}
+
+.galeria_main {
+    display: grid;
+    grid-template-areas:
+        "1 2 3"
+        "4 5 6";
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    gap: 15px;
+    margin: 25px;
+}
+
+.galeria_main img {
+    height: 300px;
+    width: 400px;
+    transition: 1s;
+}
+
+.foto1 {
+    grid-area: "1";
+    filter: blur(2px);
+}
+
+.foto2 {
+    grid-area: "2";
+    filter: blur(2px);
+}
+
+.foto3 {
+    grid-area: "3";
+    filter: blur(2px);
+}
+
+.foto4 {
+    grid-area: "4";
+    filter: blur(2px);
+}
+
+.foto5 {
+    grid-area: "5";
+    filter: blur(2px);
+}
+
+.foto6 {
+    grid-area: "6";
+    filter: blur(2px);
+}
+
+.galeria_main img:hover {
+    filter: none;
+    height: 320px;
+    width: 420px;
+    box-shadow: 10px 10px 7px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
+}
+
+.titulo_proyecto h1 {
+    display: flex;
+    padding-top: 15px;
+    padding-left: 3%;
+    font-size: 60px;
+    text-decoration: underline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.fotos_proyecto {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: rgba(150, 125, 42, 0.548);
+}
+
+.fotos_proyecto img {
+    height: 300px;
+    width: 30%;
+    object-fit: cover;
+    gap: 60px;
+    border-radius: 15px;
+}
+
+.texto_proyecto {
+    text-align: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.texto_proyecto p {
+    font-size: 30px;
+    font-family: Miriam;
+}
+
+.cuerpo_contacto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.mapa_contacto iframe {
+    height: 400px;
+    width: 600px;
+    border-radius: 15px;
+}
+
+.form_contacto {
+    background-color: rgba(0, 0, 0, 0.182);
+    margin: 20px;
+    border-radius: 15px;
+    padding: 30px;
+    width: 49%;
+}
+
+.input_form_contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.input_form_contacto input {
+    border-radius: 15px;
+    background-color: #d09c2c27;
+    width: 300px;
+    height: 40px;
+}
+
+.input_form_contacto input::placeholder {
+    color: #000;
+    transform: translateX(3%);
+
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.texto_form_contacto {
+    margin-top: 15px;
+}
+
+.texto_form_contacto input::placeholder {
+    color: #000;
+    transform: translateY(-130px) translateX(3%);
+}
+
+.texto_form_contacto input {
+    height: 300px;
+    width: 500px;
+    border-radius: 15px;
+    background-color: #d09c2c27;
+    color: #000;
+
+}
+
+@media (max-width:1023px){
+    .galeria_main {
+        display: grid;
+        grid-template-areas:
+            "1 2"
+            "3 4"
+            "5 6";
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        gap: 15px;
+        margin: 25px;
+    }
+    .galeria_main img {
+        height: 300px;
+        width: 80%;
+        transition: 1s;
+    }
+}
+
+@media (max-width:868px){
+    .galeria_main {
+        display: grid;
+        grid-template-areas:
+            "1"
+            "2"
+            "3"
+            "4"
+            "5"
+            "6";
+        grid-template-columns: 1fr;
+        justify-items: center;
+        gap: 15px;
+        margin: 25px;
+    }
+    .galeria_main img {
+        height: 300px;
+        width: 80%;
+        transition: 1s;
+    }
+}
