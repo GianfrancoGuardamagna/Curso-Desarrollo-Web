@@ -72,36 +72,6 @@
     margin: 20px;
 }
 
-.footer_index {
-    margin-bottom: 0%;
-    background-color: rgb(62, 73, 62);
-    background-size: 70px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.footer_index_texto {
-    width: 17%;
-    align-items: center;
-}
-
-.footer_index_texto p {
-    display: flex;
-    font-weight: 600;
-    padding: 5px;
-}
-
-.footer_index div svg {
-    height: 30px;
-    width: auto;
-    margin: 7px;
-    justify-content: right;
-}
-
 .main_eltaller {
     display: flex;
     flex-direction: column;
